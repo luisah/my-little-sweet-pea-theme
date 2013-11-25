@@ -176,7 +176,7 @@ a:active {
 
 .menu ul {
 	margin-top: 1px;
-	min-width: 88px;
+	min-width: 87px;
 	width: 92px;
 	width: auto;
 }
@@ -192,7 +192,8 @@ ul.menu > li:hover a {
 
 .menu .current_page_item a,
 .menu .current-menu-item a,
-.menu .current-page-ancestor a {
+.menu .current-page-ancestor a,
+.menu .current-menu-ancestor a {
 	background-color: transparent;
 	color: #871f63;
 }
@@ -255,7 +256,7 @@ ul.menu > li:hover a {
 }
 
 #menu-item-33 .sub-menu {
-	width: 148px;
+	width: 149px;
 }
 
 /* =Top Menu
@@ -484,7 +485,7 @@ ul.menu > li:hover a {
 
 /* =Page
 -------------------------------------------------------------- */
-.page h1 {
+.page h1, .post-type-archive-faq h1 {
 	font-size: 24px;
 	line-height: 24px;
 	color: white;
@@ -493,7 +494,7 @@ ul.menu > li:hover a {
 	right: 614px;
 }
 
-.page h6 {
+.page h6, .post-type-archive-faq h6 {
 	font-family: 'Cyntho Slab Pro';
 	font-size: 14px;
 	font-weight: bold;
@@ -597,14 +598,22 @@ ul.menu > li:hover a {
 
 /* =FAQ
 -------------------------------------------------------------- */
-.page-id-47 h3 {
+.page-id-47 h3, .post-type-archive-faq h3 {
 	font-family: 'Cyntho Slab Pro';
 	font-size: 14px;
 	text-decoration: underline;
 	cursor: pointer;
 }
 
-.page-id-47 h3:focus {
+.post-type-archive-faq .post-entry {
+	padding: 0 40px
+}
+
+.post-type-archive-faq .image-container {
+	margin: 30px 0 0 55px;
+}
+
+.page-id-47 h3:focus, .post-type-archive-faq h3:focus {
 	outline: 0;
 }
 
@@ -612,7 +621,7 @@ ul.menu > li:hover a {
 	margin-bottom: 36px;
 }
 
-.page-id-47 h1 {
+.page-id-47 h1, .post-type-archive-faq h1 {
 	left: 118px;
 }
 
