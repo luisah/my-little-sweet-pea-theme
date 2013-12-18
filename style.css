@@ -621,8 +621,12 @@ ul.menu > li:hover a {
 	margin-bottom: 36px;
 }
 
-.page-id-47 h1, .post-type-archive-faq h1 {
+.page-id-47 h1 {
 	left: 118px;
+}
+
+.post-type-archive-faq h1 {
+	left: 139px;
 }
 
 /* =Track order
